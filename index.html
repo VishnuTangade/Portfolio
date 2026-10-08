@@ -1,0 +1,752 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vishnu Tangade - Portfolio</title>
+    //<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <!-- Hamburger menu toggle (hidden checkbox) -->
+    <input type="checkbox" id="hamburger-toggle">
+    
+    <!-- Header Section -->
+    <header class="header">
+        <a href="#home" class="logo">Portfolio</a>
+
+        <label for="hamburger-toggle" id="menu-icon"><i class='bx bx-menu'></i></label> 
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header> 
+
+    <!-- Home Section start -->
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="C:\Users\Dell\OneDrive\Documents\Pictures\vishnu2.png" alt="Profile Image">
+        </div>
+
+        <div class="home-content">
+            <h3>Hello, Myself</h3>
+            <h1>Vishnu Tangade</h1>
+            <h3>I'm a <span class="multiple-text">Java Full Stack Developer</span></h3>
+            <p>I’m a Java Full Stack Developer with a passion for building scalable, secure, and high-performance web applications. I specialize in both front-end and back-end development, creating seamless user experiences with modern UI technologies while implementing robust server-side logic using Java and Spring Boot. I focus on developing clean, efficient, and user-centric applications that deliver real value.
+marathi</p>
+            <div class="social-media">
+                <a href="https://github.com/pradhumna-ghunnar" target="_blank" rel="noopener" title="GitHub Profile"><i class='bx bxl-github' ></i></a>
+                <a href="https://www.linkedin.com/in/vishnu-tangade-248094399/" target="_blank" rel="noopener" title="LinkedIn Profile"><i class='bx bxl-linkedin' ></i></a>
+                <a href="#" title="Facebook Profile"><i class='bx bxl-facebook' ></i></a>
+                <a href="#"><i class='bx bxl-instagram' ></i></a>
+            </div>
+            <a href="file:///C:/Users/Dell/Downloads/Vishnu%20Tangade%20Resume%20(1).pdf" class="btn" target="_blank" rel="noopener">Download CV</a>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- About Section start -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>I'm a <span>Backend Developer</span></h3>
+            <p>I’m a passionate Back-End Developer with a strong foundation in server-side technologies and database management. I enjoy building secure, scalable, and high-performance applications by designing robust APIs, handling business logic, and ensuring smooth data flow between the server and client. I focus on writing clean, efficient code that powers reliable and user-friendly web applications.</p>
+            <label for="about-detail-toggle" class="btn">Read More</label>
+        </div>
+
+        <div class="about-img">
+            <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="About Image">
+        </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Hidden checkbox to control about detail visibility -->
+    <input type="checkbox" id="about-detail-toggle">
+
+    <!-- About Detail Page -->
+    <div class="about-detail-page" id="about-detail">
+        <div class="about-detail-container">
+            <label for="about-detail-toggle" class="close-btn"><i class='bx bx-x'></i></label>
+            <div class="about-detail-content">
+                <h2>More About Me</h2>
+                <div class="about-detail-text">
+                    <p>I’m a passionate Back-End Developer with a strong foundation in server-side technologies and database management. I enjoy building secure, scalable, and high-performance applications by designing robust APIs, handling business logic, and ensuring smooth data flow between the server and client. I focus on writing clean, efficient code that powers reliable and user-friendly web applications.</p>
+                    <h3>Education</h3>
+                    <p>Bachelor's Degree in Computer Science from Dr. Dabasaheb ambedkar marathwada university university (2022-2025)</p>
+                    <p>CGPA:7.74</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section start -->
+    <section class="skills" id="skills">
+        <div class="skills-content">
+            <h2 class="heading">My <span>Skills</span></h2>
+            
+            <div class="skills-container">
+                <!-- Skill 1: C -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-cuttlefish"></i>
+                    </div>
+                    <h3 class="skill-name">C</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 90%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 2: HTML -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <h3 class="skill-name">HTML</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 80%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 3: CSS -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <h3 class="skill-name">CSS</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 80%; background: #0ef;"></div>
+                    </div>
+                </div>
+
+                <!-- Skill 4: Core Java -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fab fa-java"></i>
+                    </div>
+                    <h3 class="skill-name">Core Java</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 100%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 5: Adv Java-->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                         <i class="fab fa-java"></i>
+                        
+                    </div>
+                    <h3 class="skill-name">Adv Java</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 95%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- Skill 6: Spring Boot -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                       <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3 class="skill-name">Spring Boot</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 90%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- NEW SKILL 8: SQL -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">SQL</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 88%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                <!-- NEW SKILL 9: PL/SQL -->
+                <div class="skill-item">
+                    <div class="skill-logo">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3 class="skill-name">PL/SQL</h3>
+                    <div class="skill-level">
+                        <div class="skill-progress" style="--progress-width: 82%; background: #0ef;"></div>
+                    </div>
+                </div>
+                
+                    </div>
+                </div>
+            
+            <!-- Auto Slider -->
+            <div class="slider-container">
+                <div class="slider-track">
+                    <!-- Duplicate items for seamless loop -->
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-cuttlefish"></i></div>
+                        <div class="slider-name">C</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-c-plus-plus"></i></div>
+                        <div class="slider-name">C++</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-java"></i></div>
+                        <div class="slider-name">Java</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-leaf"></i></div>
+                        <div class="slider-name">Spring Boot</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-html5"></i></div>
+                        <div class="slider-name">HTML</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-css3-alt"></i></div>
+                        <div class="slider-name">CSS</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-js"></i></div>
+                        <div class="slider-name">JavaScript</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-bootstrap"></i></div>
+                        <div class="slider-name">Bootstrap</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-database"></i></div>
+                        <div class="slider-name">MySQL</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-server"></i></div>
+                        <div class="slider-name">SQL Server</div>
+                    </div>
+
+                    <!-- Duplicate items for seamless loop -->
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-cuttlefish"></i></div>
+                        <div class="slider-name">C</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-c-plus-plus"></i></div>
+                        <div class="slider-name">C++</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-java"></i></div>
+                        <div class="slider-name">Java</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-leaf"></i></div>
+                        <div class="slider-name">Spring Boot</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-html5"></i></div>
+                        <div class="slider-name">HTML</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-css3-alt"></i></div>
+                        <div class="slider-name">CSS</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-js"></i></div>
+                        <div class="slider-name">JavaScript</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-bootstrap"></i></div>
+                        <div class="slider-name">Bootstrap</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-wordpress"></i></div>
+                        <div class="slider-name">WordPress</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fab fa-shopify"></i></div>
+                        <div class="slider-name">Shopify</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-database"></i></div>
+                        <div class="slider-name">MySQL</div>
+                    </div>
+                    <div class="slider-item">
+                        <div class="slider-logo"><i class="fas fa-server"></i></div>
+                        <div class="slider-name">SQL Server</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills Section End -->
+
+    <!-- Project Section Start -->
+
+    <section class="projects" id="projects">
+        <div class="projects-heading">
+            <h2>My <span>Projects</span></h2>
+            <p>Here are some of the key projects I've worked on during my professional career. Each project represents challenges overcome and skills developed.</p>
+        </div>
+
+        <!-- Projects grid container -->
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="E-commerce Project">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Banking Application</h3>
+                    <div class="company-info">
+                        <div class="project-role">Frontend Development</div>
+                    </div>
+                    <label for="popup-6" class="project-btn"><i class='bx bx-show'></i>View Details</label>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Fitness App">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Researh Documents</h3>
+                    <div class="company-info">
+                        <div class="project-role">Backend Development</div>
+                    </div>
+                    <label for="popup-7" class="project-btn"><i class='bx bx-show'></i>View Details</label>
+                </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Analytics Dashboard">
+                </div>  
+                <div class="project-content">
+                    <h3 class="project-title">Hotel Management</h3>
+                    <div class="company-info">
+                        <div class="project-role">Backend Development</div>
+                    </div>
+                    <label for="popup-8" class="project-btn"><i class='bx bx-show'></i>View Details</label>
+                </div>
+            </div>
+
+            <!-- Project 4 
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1548092372-44d6d47aac15?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Inventory System">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Inventory Management</h3>
+                    <div class="company-info">
+                        <div class="company-name">Retail Solutions Ltd.</div>
+                        <div class="project-role">Backend Developer</div>
+                    </div>
+                    <label for="popup-9" class="project-btn"><i class='bx bx-show'></i>View Details</label>
+                </div>
+            </div>-->
+
+            <!-- Project 5 
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" alt="Banking App">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Banking Application</h3>
+                    <div class="company-info">
+                        <div class="company-name">FinTech Solutions</div>
+                        <div class="project-role">React Native Developer</div>
+                    </div>
+                    <label for="popup-10" class="project-btn"><i class='bx bx-show'></i>View Details</label>
+                </div>
+            </div>-->
+        </div>
+    </section>
+
+    <!-- Projects Section End -->
+
+    <!-- Popup 1:   -->
+
+    <input type="checkbox" id="popup-6" class="popup-toggle">
+    <div class="project-popup">
+        <div class="popup-container">
+            <label for="popup-6" class="popup-close"><i class='bx bx-x'></i></label>
+            <div class="popup-header">
+                <h2>Banking Application</h2>
+                <h3>Tech Solutions Inc. | Frontend Development</h3>
+            </div>
+            
+            <div class="popup-details">
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Project Duration</span>
+                    <span class="popup-detail-value">1 Months (mar 2025 - Apr 2025)</span>
+                </div>
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Technologies Used</span>
+                    <span class="popup-detail-value">Html,css,JavaScript,React.js</span>
+                </div>
+            </div>
+            
+            <div class="popup-section">
+                <h4>About my Project</h4>
+                <ul>
+                    <i>My Banking Application is a web-based system designed to perform core banking operations digitally. The application allows users to securely manage their bank accounts, perform transactions, and view account details online. It also provides an admin module to manage customers and monitor banking activities efficiently.</i>
+                </ul>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Purpose of the Project</h4>
+                <i>The main purpose of this project is to replace manual banking processes with an automated system that ensures data security, accuracy, and faster transactions while providing a smooth user experience.</i>
+            </div>
+
+            <div class="popup-section">
+                <h4>Modules Implemented</h4>
+                <ol> 
+                    <li>User Module</li>
+                 <ul>
+                    <li>User registration and secure login</li>
+                    <li>View account details and balance</li>
+                    <li>Deposit and withdraw money</li>
+                    <li>Transfer funds to another account</li>
+                    <li>View transaction history</li>
+                 </ul>
+               
+                    <li>Admin Module</li>
+                 <ul>
+                    <li>Create and manage user accounts</li>
+                    <li>Create and manage user accounts</li>
+                    <li>Activate / deactivate accounts</li>
+                    <li>Monitor transactions</li>
+                 </ul>
+                </ol>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Technologies Used</h4>
+                <ul class="project-list">
+                    <h5>Technologies Used</h5>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Rect.js, Bootstrap</li>
+                </ul>
+            </div>
+            
+            <div class="popup-links">
+                <a href="#" class="project-btn"><i class='bx bx-link-external'></i>Live Demo</a>
+                <a href="#" class="project-btn"><i class='bx bxl-github'></i>GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 1: Banking Application-->
+
+    <!-- Popup 2: Research Documentation-->
+    <input type="checkbox" id="popup-7" class="popup-toggle">
+    <div class="project-popup">
+        <div class="popup-container">
+            <label for="popup-7" class="popup-close"><i class='bx bx-x'></i></label>
+            <div class="popup-header">
+                <h2>Research Documentation</h2>
+                <h3>Full Stack Developer</h3>
+            </div>
+            
+            <div class="popup-details">
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Project Duration</span>
+                    <span class="popup-detail-value">2 Months (Aug 2025 - Oct 2025)</span>
+                </div>
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Technologies Used</span>
+                    <span class="popup-detail-value">Html, Css Core Java, Adv Java, SQL, Spring Boot</span>
+                </div>
+            </div>
+
+            <div class="popup-section">
+                <h4>My Role & Responsibilities</h4>
+                <ul>
+                    <i>Developed a centralized web-based platform for organizing and sharing research documents. The
+application allows users to upload and manage files with role-based access control, ensuring that only
+authorized users can upload, view, or manage research materials. Integrated user authentication and
+implemented secure file handling logic using Java technologies. Participated in application development,
+handled debugging, and collaborated with peers to improve functionality and maintain clean code
+structure</i>
+                </ul>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Technologies Used</h4>
+                <ul class="project-list">
+                    <li>Html, Css, Core Java, Adv Java, Sql, Springboot</li>
+                </ul>
+            </div>
+            
+            <div class="popup-links">
+                <a href="#" class="project-btn"><i class='bx bx-link-external'></i>Live Demo</a>
+                <a href="#" class="project-btn"><i class='bx bxl-github'></i>GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 2: Fitness Tracker App End-->
+
+    <!-- Popup 3: Hotel Management -->
+    <input type="checkbox" id="popup-8" class="popup-toggle">
+    <div class="project-popup">
+        <div class="popup-container">
+            <label for="popup-8" class="popup-close"><i class='bx bx-x'></i></label>
+            <div class="popup-header">
+                <h2>Hotel Management</h2>
+                <h3>Backend Developer</h3>
+            </div>
+            
+            <div class="popup-details">
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Project Duration</span>
+                    <span class="popup-detail-value">3 Months (Oct 2025 - Jan 2025)</span>
+                </div>
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Technologies Used</span>
+                    <span class="popup-detail-value">Html, Css, Core Java, Adv Java, Sql, Springboot</span>
+                </div>
+            </div>
+            
+            <div class="popup-section">
+                <h4>About my Project</h4>
+                <ul>
+                    <li>The Hotel Management System is a web-based application designed to automate and manage hotel operations efficiently. The system helps hotel staff and administrators handle room bookings, customer management, check-in/check-out processes, and billing in a centralized and secure manner, reducing manual work and improving operational accuracy.</li>
+                </ul>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Purpose of the Project</h4>
+                <ul class="project-list">
+                    <li>The main goal of this project is to streamline hotel operations by providing an automated system that improves booking management, enhances customer experience, and ensures accurate record-keeping.</li>
+                </ul>
+                <ol>
+                    <li>Customer Module</li>
+                    <ul>
+                        <li>Customer registration and login</li>
+                        <li>View available rooms</li>
+                        <li>Book rooms based on availability</li>
+                        <li>View booking details</li>
+                        <li>Check-in and check-out</li>
+                    </ul>
+                    <li>Admin Module</li>
+
+                    <ul>
+                        <li>Add, update, and delete room details</li>
+                        <li>Manage room availability</li>
+                        <li>View customer and booking details</li>
+                        <li>Generate bills and reports</li>
+                    </ul>
+                </ol>
+            </div>
+            
+            <div class="popup-links">
+                <a href="#" class="project-btn"><i class='bx bx-link-external'></i>Live Demo</a>
+                <a href="#" class="project-btn"><i class='bx bxl-github'></i>GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 3: Analytics Dashboard End-->
+
+    <!-- Popup 4: Inventory Management 
+    <input type="checkbox" id="popup-9" class="popup-toggle">
+    <div class="project-popup">
+        <div class="popup-container">
+            <label for="popup-9" class="popup-close"><i class='bx bx-x'></i></label>
+            <div class="popup-header">
+                <h2>Inventory Management System</h2>
+                <h3>Retail Solutions Ltd. | Backend Developer</h3>
+            </div>
+            
+            <div class="popup-details">
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Project Duration</span>
+                    <span class="popup-detail-value">5 Months (Feb 2023 - Jun 2023)</span>
+                </div>
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Technologies Used</span>
+                    <span class="popup-detail-value">Java, Spring Boot, MySQL, REST APIs</span>
+                </div>
+            </div>
+            
+            <div class="popup-section">
+                <h4>My Role & Responsibilities</h4>
+                <ul>
+                    <li>Developed RESTful APIs for inventory management operations</li>
+                    <li>Designed and implemented database schema for inventory system</li>
+                    <li>Created authentication and authorization system for secure access</li>
+                    <li>Integrated with barcode scanning and printing systems</li>
+                    <li>Implemented reporting features for inventory analytics</li>
+                    <li>Optimized database queries for better performance</li>
+                </ul>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Projects Completed</h4>
+                <ul class="project-list">
+                    <li>Core Inventory Management System - Main application backend</li>
+                    <li>Mobile Scanning App - Barcode scanning interface</li>
+                    <li>Reporting Dashboard - Analytics and reporting module</li>
+                </ul>
+            </div>
+            
+            <div class="popup-links">
+                <a href="#" class="project-btn"><i class='bx bx-link-external'></i>Live Demo</a>
+                <a href="#" class="project-btn"><i class='bx bxl-github'></i>GitHub Repository</a>
+            </div>
+        </div>
+    </div>-->
+    <!-- Popup 4: Inventory Management End -->
+
+    <!-- Popup 5: Banking Application Start-->
+    <input type="checkbox" id="popup-10" class="popup-toggle">
+    <div class="project-popup">
+        <div class="popup-container">
+            <label for="popup-10" class="popup-close"><i class='bx bx-x'></i></label>
+            <div class="popup-header">
+                <h2>Banking Application</h2>
+                <h3>FinTech Solutions | React Native Developer</h3>
+            </div>
+            
+            <div class="popup-details">
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Project Duration</span>
+                    <span class="popup-detail-value">7 Months (Dec 2022 - Jun 2023)</span>
+                </div>
+                <div class="popup-detail-item">
+                    <span class="popup-detail-label">Technologies Used</span>
+                    <span class="popup-detail-value">React Native, Firebase, Node.js, MongoDB</span>
+                </div>
+            </div>
+            
+            <div class="popup-section">
+                <h4>My Role & Responsibilities</h4>
+                <ul>
+                    <li>Developed mobile banking application using React Native</li>
+                    <li>Implemented secure authentication and transaction features</li>
+                    <li>Created UI components for banking operations and transactions</li>
+                    <li>Integrated with banking APIs for real-time data</li>
+                    <li>Implemented biometric authentication for enhanced security</li>
+                    <li>Collaborated with security team to ensure data protection</li>
+                </ul>
+            </div>
+            
+            <div class="popup-section">
+                <h4>Projects Completed</h4>
+                <ul class="project-list">
+                    <li>Mobile Banking App - Primary consumer banking application</li>
+                    <li>Admin Portal - Backoffice system for banking operations</li>
+                    <li>Payment Gateway - Integration with payment processing systems</li>
+                </ul>
+            </div>
+            
+            <div class="popup-links">
+                <a href="#" class="project-btn"><i class='bx bx-link-external'></i>Live Demo</a>
+                <a href="#" class="project-btn"><i class='bx bxl-github'></i>GitHub Repository</a>
+            </div>
+        </div>
+    </div>
+    <!-- Popup 5: Banking Application End-->
+
+    <!--Section Contact us Start-->
+    <!DOCTYPE html>
+  <!-- Contact Section Start -->
+  <section class="contact" id="contact">
+    <div class="contact-heading">
+      <h2>Contact <span>Me</span></h2>
+      <p>Get in touch and let's discuss how we can work together</p>
+    </div>
+    
+    <div class="contact-container">
+      <div class="contact-info">
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-envelope"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Email</h3>
+            <a href="mailto:vishnutangade399@gmail.com">vishnutangade399@gmail.com</a>
+          </div>
+        </div>
+        
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-phone"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Phone</h3>
+            <a href="tel:+917666347325">+919067531979</a>
+          </div>
+        </div>
+        
+        <div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-map-marker-alt"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Location</h3>
+            <p>Hyderabad</p>
+          </div>
+        </div>
+        
+        <!--<div class="contact-info-item">
+          <div class="contact-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <div class="contact-details">
+            <h3>Working Hours</h3>
+            <p>Mon - Fri: 9AM - 9PM</p>
+          </div>
+        </div>-->
+      </div>
+      
+      <div class="contact-form">
+        <form action="#" method="POST">
+          <div class="input-box">
+            <input type="text" name="name" required>
+            <label>Your Name</label>
+          </div>
+          
+          <div class="input-box">
+            <input type="email" name="email" required>
+            <label>Your Email</label>
+          </div>
+          
+          <div class="input-box">
+            <input type="text" name="subject" required>
+            <label>Subject</label>
+          </div>
+          
+          <div class="input-box">
+            <textarea name="message" rows="5" required></textarea>
+            <label>Your Message</label>
+          </div>
+          
+          <button type="submit" class="form-btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+      
+      <div class="contact-map">
+         <iframe
+  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15201.511491621979!2d78.4503631!3d17.4412347!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTfCsDI2JzI4LjQiTiA3OMKwMjcnMDEuMyJF!5e0!3m2!1sen!2sin!4v1234567890123"
+  width="600"
+  height="450"
+  style="border:0;"
+  allowfullscreen=""
+  loading="lazy"></iframe>
+        <div class="map-overlay">
+          <button onclick="window.open('https://maps.google.com/?q=Hyderabad,Telangana,India', '_blank')">
+            Open in Maps
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact Section End -->
+</body>
+</html>
